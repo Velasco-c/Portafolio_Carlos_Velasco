@@ -262,11 +262,13 @@ p {
     color: #00b7ff; 
     font-size: 18px; 
     margin: 0; 
+    text-align: center;
 }
 
 .proyecto-info p { 
     font-size: 14px; 
     margin: 5px 0 0; 
+    text-align: center;
 }
 
 .area-visual {
