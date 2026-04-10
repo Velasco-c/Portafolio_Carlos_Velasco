@@ -24,6 +24,8 @@
         <li><a href="#habilidades">habilidades</a></li>
         <li><a href="#proyectos">Proyectos</a></li>
         <li><a href="#Tecnologias">Tecnologías</a></li>
+        <li><a href="#contacto">contacto</a></li>
+
     </ul>
     <div class="social-icons">
     <a href="https://github.com/Velasco-c" target="_blank">
@@ -34,9 +36,7 @@
   <img src="iconos/linkedin.svg" alt="LinkedIn" >
 </a>
 
-<a href="mailto:carlos.velasco.est&#64;gmail.com" target="_blank">
-  <img src="iconos/email.svg" alt="Correo electrónico">
-</a>
+
 
 <a href="https://www.instagram.com/ve.lasco319?igsh=M3FjdDE2eTVscDdw" target="_blank">
   <img src="iconos/instagram.svg" alt="Instagram">
@@ -85,6 +85,7 @@
         <img src="imagenes/habilidades.png" style="height: 400px" alt="habilidades">
     </div>
 </section>
+
 
 <section id="proyectos" class="section">
     <div class="contenido">
@@ -167,18 +168,44 @@
             Aquí podrás ver algunos de Las Tecnologias que utlilizo donde aplico mis conocimientos en programación y desarrollo web.
         </p>
     </div>
+    <div class="area-visual">
+        <div class="glass-grid">
+            <div class="card"><img src="iconos/html.svg" alt="HTML"><span>html</span></div>
+            <div class="card"><img src="iconos/css.svg" alt="CSS"><span>CSS</span></div>
+            <div class="card"><img src="iconos/github.svg" alt="Git"><span>Git</span></div>
+            <div class="card"><img src="iconos/python.svg" alt="Resolución"><span>python</span></div>
+        </div>
+    </div>
+
+
+</section>
+
+<section id="contacto" class="section">
+    <div class="contenido">
+        <h2>contacto</h2>
+        <p>Si tienes un proyecto en mente o simplemente quieres saludar, mi bandeja de entrada siempre está abierta.</p>
+    </div>
+
+    <div class="area-visual">
+        <form action="mailto:carlos.velasco.est@gmail.com" method="GET" class="contacto-form">               
+            <input type="text" name="Nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="Email" placeholder="Tu Email" required>
+
+            <textarea name="Mensaje" placeholder="Cuéntame sobre tu proyecto..." rows="4" required></textarea>
+
+            <button type="submit" class="btn-enviar">Redactar Correo</button>
+        </form>
+    </div>
 </section>
 
 <footer class="minimal-footer">
-    
-    <div class="social-icons" style="justify-content: center; margin: 20px 0;">
+    <div class="social-icons" style="justify-content: center; margin: 20px 0; display: flex; gap: 15px;">
         <a href="https://github.com/Velasco-c" target="_blank"><img src="iconos/github.svg" alt="GitHub"></a>
-        <a href="https://www.linkedin.com/in/carlos-velasco-0b1b80278" target="_blank"><img src="iconos/linkedin.svg" alt="LinkedIn"></a>
-        <a href="mailto:carlos.velasco.est@gmail.com"><img src="iconos/email.svg" alt="Correo"></a>
+        <a href="https://www.linkedin.com/..." target="_blank"><img src="iconos/linkedin.svg" alt="LinkedIn"></a>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=carlos.velasco.est@gmail.com" target="_blank" class="link-mail"><img src="iconos/email.svg" alt="Correo"></a>
     </div>
 
     <p class="footer-legal">&copy; 2026 | Carlos Tzoy</p>
 </footer>
-
 </body>
 </html>
